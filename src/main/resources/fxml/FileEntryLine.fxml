@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<HBox alignment="CENTER_LEFT" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.familysearch.ppo.billiongraves2.FileEntryLineController">
+   <children>
+      <Button mnemonicParsing="false" onAction="#removeAction" text="X" />
+      <Label fx:id="lblFileName" HBox.hgrow="ALWAYS" />
+   </children>
+</HBox>
