@@ -9,9 +9,10 @@
 <HBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.familysearch.ppo.billiongraves2.AppController">
     <children>
         <VBox prefWidth="220.0">
-         <children>
-              <fx:include source="FileSelector.fxml" />
-         </children></VBox>
+            <children>
+                <fx:include source="FileSelector.fxml" fx:id="fileSelector" />
+            </children>
+        </VBox>
 
     </children>
 </HBox>
